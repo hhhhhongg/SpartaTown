@@ -6,10 +6,9 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     private CharacterController _controller;
-
-    private Vector2 _movementDirection = Vector2.zero;
     private Rigidbody2D _rigidbody;
     private Animator _animator;
+    private Vector2 _movementDirection = Vector2.zero;
 
     private void Awake()
     {

@@ -1,5 +1,5 @@
 {
-    "name": "Controller 2D",
+    "name": "Player Controller 2D",
     "maps": [
         {
             "name": "Player",
@@ -26,17 +26,6 @@
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "32b8d7dd-686a-48af-bbdf-93cc238d56d1",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "KeyBoard&Mouse",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "2D Vector",
                     "id": "ae0e5369-b5d7-40a0-b9db-58ddcaf6ece9",
                     "path": "2DVector",
@@ -59,9 +48,31 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "up",
+                    "id": "7972f5f9-38ed-4823-84be-63aed3b0110e",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyBoard&Mouse",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "down",
                     "id": "282f20eb-6e43-4596-96ac-23ecec167508",
                     "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyBoard&Mouse",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "6745a8a1-4b64-4783-85bf-0c098e763ad2",
+                    "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyBoard&Mouse",
@@ -81,9 +92,31 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "left",
+                    "id": "c56ab0d3-518f-4cec-9c61-86b445c6739d",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyBoard&Mouse",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "right",
                     "id": "307ead49-0842-4b96-9ef8-0577b6c72d11",
                     "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyBoard&Mouse",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "57dcb5df-cb55-4285-9dd1-5787da65f3c1",
+                    "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyBoard&Mouse",

@@ -5,10 +5,7 @@ using UnityEngine;
 
 public class AimRotation : MonoBehaviour
 {
-    [SerializeField] private SpriteRenderer Renderer;
-
     [SerializeField] private SpriteRenderer characterRenderer;
-
     private CharacterController _controller;
     private void Awake()
     {
@@ -29,13 +26,8 @@ public class AimRotation : MonoBehaviour
     {
         float rotZ = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
-        Renderer.flipY = Mathf.Abs(rotZ) > 90f;
-        characterRenderer.flipX = Renderer.flipY;
+        characterRenderer.flipX = Mathf.Abs(rotZ) > 90f;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
